@@ -1,0 +1,14 @@
+[
+    {
+      "name": "React Stocks",
+      "live": "React Stocks URL",
+      "git": "https://github.com/smperilla/react-stocks",
+      "image": "https://blog.tipranks.com/wp-content/uploads/2022/11/shutterstock_1685010460-750x406.jpg"
+    },
+    {
+      "name": "FortuneTeller",
+      "live": "https://fortuneteller-4anm.onrender.com",
+      "git": "https://github.com/smperilla/SEIProjectOneDesign",
+      "image": "https://static.vecteezy.com/system/resources/previews/013/113/789/original/magic-crystal-ball-future-with-eye-fortune-teller-crystal-ball-witchcraft-magic-symbol-halloween-graphic-element-alchemy-illustration-isolated-crystal-ball-mystic-spiritual-logo-eye-stars-png.png"
+    }
+  ]
