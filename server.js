@@ -1,10 +1,11 @@
-const express = require('express');
-const cors = require('cors');
+const express = require("express");
+const cors = require("cors");
 
-const projects = require('./projects.json');
-const about = require('./about.json');
+const projects = require("./projects.json");
+const about = require("./about.json");
 
 const app = express();
+app.use(cors());
 
 app.get("/", (req, res) => {
   res.send("Hello World!");
@@ -20,4 +21,4 @@ app.get("/about", (req, res) => {
 
 const PORT = 4000;
 
-app.listen(PORT,() => console.log(`Server running on port ${PORT}`));
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
